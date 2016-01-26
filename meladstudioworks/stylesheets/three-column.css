@@ -1,0 +1,38 @@
+/******* Three column template styles ********/
+.three-col img {
+	border: 1px solid rgba(58, 58, 58, 0.79);
+}
+.three-col .span3 {
+	position:relative;
+}
+.three-col .overlay-heading {
+	position: absolute;
+	bottom: 13%;
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 5px;
+	padding-right: 20px;
+	padding-left: 20px;
+	color:white;
+	/*border: 2px solid rgba(58, 58, 58, 0.79);*/
+	font-weight:normal;
+	text-shadow: 2px 2px 0px #000;
+}
+
+
+/******* End Three column template styles ********/
+
+/* Xtra Large */
+@media (min-width: 1200px) {
+	.three-col .span3 { width: 303px; }
+	.three-col img { height: 202px; }
+}
+/* Large */
+@media (max-width: 1199px) and (min-width: 980px) {
+	.three-col .span3 { width: 246.6px; }
+	.three-col img { height: 165px; }
+}
+/* Medium */
+@media (max-width: 979px) and (min-width: 768px) {
+	.three-col .span3 { width: 186px; }
+	.three-col img { height: 125px; }
+}

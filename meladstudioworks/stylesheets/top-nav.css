@@ -1,0 +1,89 @@
+/******* Top nav styles ********/
+/*.main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul,*/
+.main-navigation li a,
+.main-navigation div a {
+	font-size: 1.2em;
+	font-family: Raleway;
+	line-height:3;
+	color: #9F99A3;
+}
+.main-navigation .current-menu-item > a {
+	font-weight:normal;
+	color:black;
+}
+.menu-item a {
+	text-transform:uppercase;
+	text-decoration:none;
+	padding-bottom: 5px;
+}
+.menu-item a:hover {
+	border-bottom: 1px solid #6a6a6a;
+	color: black;
+}
+.site-header {
+	padding-bottom:20px;
+}
+.main-navigation {
+	margin-top:5px;
+}
+#top-nav-logo {
+	margin-bottom:-18px;
+	height:115px;
+}
+footer[role="contentinfo"] {
+	max-width:inherit;
+}
+
+@media (min-width:1200px) {
+	.top-nav-row {
+		margin-left:20px;
+	}
+	
+	.menu-items-span {
+		margin-top:34px;
+	}
+}
+@media (min-width: 980px) and (max-width: 1199px) {
+	.menu-items-span {
+		margin-top:34px;
+	}
+	.span4 {
+		width:330px;
+	}
+	.span2 {
+		width:155px;
+	}
+	.span3 {
+		width:240px;
+	}
+	#top-nav-logo-div {
+		margin-right: 5px;
+		margin-left: 5px;
+	}
+}
+@media (min-width: 768px) and (max-width: 979px) {
+	.top-nav-row {
+		margin-left:11px;
+	}
+	.menu-items-span {
+		margin-top:34px;
+	}
+	.span3 {
+		width:226px
+	}
+	.span4 {
+		width:198px;
+	}
+	.span2 {
+		width:89px;
+	}
+}
+
+@media (min-width: 768px) {
+	.menu-items-span {
+		border-top: 1px solid #9F99A3;
+		border-bottom: 1px solid #9F99A3;
+		padding-top:0px;
+		padding-bottom:0px;
+	}
+}

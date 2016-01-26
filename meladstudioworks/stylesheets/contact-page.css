@@ -1,0 +1,60 @@
+.contact-label {
+	font-size:18pt;
+}
+.contact-info {
+	margin-left:50px;
+	margin-right:-50px;
+}
+.left-contact-div {
+	border-right:1px solid rgba(58, 58, 58, 0.79);
+}
+
+.map-div iframe {
+	border-radius: 20px;
+	box-shadow: 4px 4px 16px rgba(58, 58, 58, 0.79);
+}
+.map-div .well {
+	display: inline-block;
+}
+@media (max-width: 767px) {
+	.contact-info {
+		margin-left:20px;
+	}
+	.left-contact-div {
+		border-right:none;
+		margin-bottom:30px;
+		border-bottom: 1px solid rgba(58, 58, 58, 0.79);
+	}
+}
+@media (max-width: 979px) and (min-width: 768px) {
+	.contact-info {
+		margin-left:145px;
+	}
+	.map-div {
+		margin-left:55px;
+	}
+}
+@media (max-width:1199px) and (min-width: 980px) {
+	.map-div {
+		margin-left:75px;
+	}
+}
+.contact-row {
+	margin-bottom: 10px;
+}
+[class*="foundicon-"]:after {
+	position: relative;
+	top: -8px;
+	left: 10px;
+	color: #888; 
+	font-size: 60%;
+	font-style: normal;
+}
+.contact-row .foundicon-mail:after { content: "Mail"; }
+.contact-row .foundicon-phone:after { content: "Phone"; }
+.contact-row .foundicon-address-book:after { content: "Address"; }
+
+textarea {
+	width:100%;
+	padding-right:0px;
+}

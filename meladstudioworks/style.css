@@ -1,0 +1,110 @@
+/*
+Theme Name:     Melad Studio Works
+Theme URI:      
+Description:    Child theme of TwentyTwelve
+Author:         Paul Kehrer
+Author URI:     
+Template:       twentytwelve	
+Version:        1.0
+*/
+@import url("../twentytwelve/style.css");
+@import url("stylesheets/contact-page.css");
+@import url("stylesheets/splash-page.css");
+@import url("stylesheets/top-nav.css");
+@import url("stylesheets/three-column.css");
+@import url("stylesheets/footer.css");
+
+/******* General site-wide changes ********/
+/* Get rid of double border at bottom of article */
+.site-content article {
+	border-bottom: none;
+}
+/* Have site-content fill all of the bootstrap containter */
+.site-content {
+    width: 100%;
+}
+body a {
+	color: rgba(58, 58, 58, 0.79);
+	/*font-weight:bold;*/
+}
+body a:hover {
+	text-decoration:none;
+	color:black;
+}
+body .site {
+	box-shadow: none;
+	line-height:1.8em;
+	font-family: Raleway;
+	font-size: 14px;
+	margin-top:12px;
+	color: rgba(58, 58, 58, 0.79);
+	background-color: rgb(254,254,253);
+	max-width:inherit;
+	position: relative;
+	min-height: 800px;
+	padding-bottom:148px;
+}
+
+
+body.custom-background {
+	background-color: rgba(66, 59, 83, 0.53);
+}
+
+body{
+	background-color: rgba(66, 59, 83, 0.53);
+}
+
+body {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+[class*="social foundicon-"]:before {
+  font-family: "SocialFoundicons";
+}
+[class*="general foundicon-"]:before {
+  font-family: "GeneralFoundicons";
+}
+h1 {
+	width:100%;
+	border-bottom:1px solid rgba(58, 58, 58, 0.12);
+	margin-bottom: 30px;
+	font-size: 1.5rem;
+	font-weight:normal;
+}
+
+.breadcrumb {
+	margin-top:-35px;
+	padding:0px;
+	font-size:0.9em;
+	background-color:inherit;
+	position:relative;
+	text-align:right;
+	top: 56px;
+}
+
+
+.breadcrumb a {
+	color:white;
+	text-shadow:none;
+	background-color:rgba(58, 58, 58, 0.32);
+	padding:2px 5px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+
+/* Small */
+@media (max-width: 767px) {
+	body .site {
+		padding-bottom: 235px;
+	}
+	.breadcrumb {
+		margin-top:0px;
+		text-align:left;
+		top:11px;
+	}
+}
+
+
