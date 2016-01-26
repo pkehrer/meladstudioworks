@@ -12,7 +12,6 @@ if (function_exists('register_nav_menus')) {
 
 class custom_nav_walker extends Walker_Nav_Menu
 {
-
 	function start_el( &$output, $item, $depth = 0, $args = array(), $id = 0 ) {
 		$indent = ( $depth ) ? str_repeat( "\t", $depth ) : '';
 
@@ -46,7 +45,16 @@ class custom_nav_walker extends Walker_Nav_Menu
 	function end_el( &$output, $item, $depth = 0, $args = array() ) {
 		$output .= "</div>\n";
 	}
-
 }
+
+function modify_theme_options($wp_customize)
+{
+	$wp_customize->remove_panel("widgets");
+	$wp_customize->remove_section("colors");
+	$wp_customize->remove_section("header_image");
+	$wp_customize->remove_section("background_image");
+}
+
+add_action("customize_register", "modify_theme_options");
 
 ?>
