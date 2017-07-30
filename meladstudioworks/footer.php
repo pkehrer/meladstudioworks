@@ -23,7 +23,7 @@
 			<div class="span1 offset1 footer-icon-div first-footer-icon-div">
 				<i class="general foundicon-phone"></i>
 			</div>
-			<div class="span1">617.642.7865</div>
+			<div class="span1">774.922.9912</div>
 			<div class="span1 footer-icon-div">
 				<i class="general foundicon-address-book"></i>
 			</div>
