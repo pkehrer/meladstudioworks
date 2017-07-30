@@ -34,7 +34,7 @@ get_header(); ?>
 						<i class="general general foundicon-phone"></i>
 					</div>
 					<div class="span4 contact-info">
-						617.642.7865
+						774.922.9912
 					</div>
 				</div>
 				<div class="row contact-row">
