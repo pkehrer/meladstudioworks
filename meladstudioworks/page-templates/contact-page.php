@@ -26,7 +26,7 @@ get_header(); ?>
 						<i class="general general foundicon-mail"></i>
 					</div>
 					<div class="span4 contact-info">
-						<a href="mailto:ethan@meladstudioworks.com">ethan@meladstudioworks.com</a>
+						<a href="mailto:ethan@meladstudioworks.com">info@meladstudioworks.com</a>
 					</div>
 				</div>
 				<div class="row contact-row">
